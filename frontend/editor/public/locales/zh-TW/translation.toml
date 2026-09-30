@@ -1146,7 +1146,6 @@ refresh = "重新整理"
 selectFile = "請選取要匯入的 .sql 檔案"
 size = "大小"
 title = "資料庫"
-unavailable = "目前的資料庫設定無法使用備份清單。"
 uploadTitle = "上傳與匯入"
 version = "H2 版本"
 
@@ -3960,10 +3959,10 @@ title = "要求無效"
 
 [connect.renewal]
 approve = "更新登入狀態"
+currentOwnerRequired = "Sign in as the current owner of the linked cloud team to renew this server's sign-in. If ownership was transferred, use the new owner's account."
 failed = "無法更新您的登入。請重試，或關閉此頁面並從您的伺服器重新開始。"
 lead = "此伺服器已連結至您的帳號。請更新登入狀態，以回到伺服器的帳務與用量頁面。"
 title = "更新伺服器登入狀態"
-wrongAccount = "此帳號無法更新此伺服器的登入狀態。請切換至原先用來連結伺服器的帳號，且該帳號仍須為已連結團隊的擁有者。"
 
 [convert]
 autoRotate = "自動旋轉"
@@ -4161,6 +4160,12 @@ label = "Y 位置"
 [crop.error]
 failed = "裁切 PDF 失敗"
 
+[crop.pageNumbers]
+description = "Crop the selected area on specific pages, or 'all' for every page."
+error = "Invalid page selection. Use e.g. 1, 3, 5-8 or all."
+label = "Pages to Crop"
+placeholder = "e.g. 1, 3, 5-8 or all"
+
 [crop.preview]
 title = "裁切區域選擇"
 
@@ -4196,6 +4201,12 @@ title = "已開啟設定"
 [defaultApp.success]
 message = "Stirling PDF 已成為您的預設 PDF 編輯器"
 title = "已設為預設應用程式"
+
+[desktopBilling]
+description = "Manage usage and billing in your browser. Sign in with the same Stirling account you use here."
+open = "Open Usage & Billing in browser"
+openFailed = "Could not open Usage & Billing. Check your connection and try again."
+selfHostedDescription = "Manage usage and billing on your connected server in your browser. Sign in with your server owner account."
 
 [desktopFileLink]
 saveAs = "另存新檔…"
@@ -6271,6 +6282,66 @@ title = "疊加檔案"
 text = "前景將疊加置於頁面上方；背景則置於其下。"
 title = "疊加位置"
 
+[ownership]
+acceptInvite = "They can create an account or sign in, then accept the invitation."
+accessUpdated = "Their owner access is ready."
+accountLinkDisabled = "This server still has a cloud link, but account linking is turned off. Ask the server operator to enable account linking, then resume this transfer or unlink the server in settings."
+anotherTeam = "Already on another team?"
+billing = "The subscription, wallet, payment method and existing licenses stay in place. Billing contact details do not change automatically."
+billingDetails = "Billing details"
+billingUnchanged = "Subscription and billing stay in place"
+bothDone = "Server and cloud ownership are now aligned."
+cancel = "Cancel transfer"
+check = "Check again"
+checkAccount = "Check account"
+chooseEmail = "Choose their account in {{team}}, or enter an email to invite them."
+close = "Close transfer dialog"
+cloudAccount = "Stirling account"
+cloudScopeStyled = "<user>{{name}}</user> will manage {{team}}, its members and billing."
+cloudTargetChanged = "Choose another cloud member. This account is no longer eligible for the handover."
+confirm = "I understand the access and ownership changes."
+done = "Ownership transferred"
+error = "We couldn't complete this step. Check the recipient is active and the server is connected, then check again. A pending transfer can be resumed here."
+finish = "Finish server transfer"
+inProgress = "Another recipient already has a pending transfer. Close this dialog and resume it from Users."
+instances = "This team has {{count}} linked servers. Their cloud billing stays with this team; other servers' local owners do not change."
+invitationSent = "Invitation sent"
+invite = "Send invitation"
+inviteAddress = "Invite <account>{{email}}</account> to {{team}}."
+inviteBlocked = "The invitation could not be sent. Check available team seats and whether the recipient already has a paid subscription."
+linkChanged = "The server's cloud link changed. Ask the server operator to restore the original link before resuming."
+linkedServerCount = "{{count}} linked servers"
+linkRevoked = "This server's cloud link is no longer valid. Cancel the transfer, then reconnect your Stirling account in settings. Ownership will not change."
+localScope = "They will own this server and manage billing and cloud connections. You keep administrator access, but lose access to those settings."
+membershipDetails = "Team membership details"
+membershipFirst = "They must join the team before you can confirm the transfer."
+membershipRequired = "The recipient must join this cloud team before ownership can transfer. Ask them to accept their invitation, then check again."
+newOwnerLabel = "New owner"
+newOwnerStyled = "<user>{{name}}</user> is now the owner."
+noEmailMatches = "No matching members. Enter an email to invite."
+otherTeam = "If they belong to another team, accepting may move their account. A paid account or ownership of another team may need resolving first. We won't move their subscription or merge teams."
+ownerChanged = "Cloud ownership changed after this transfer started. Cancel this transfer and start again with the current cloud owner."
+ownerRequired = "Sign in as the current cloud team owner, then try this step again."
+partialError = "Cloud ownership has transferred. Finish the server transfer to keep both owners aligned."
+partialTargetChanged = "Restore the selected server user's access and original account details, then finish the server transfer. Cloud ownership has already transferred."
+pending = "An ownership transfer to {{name}} is pending."
+personalTeam = "Personal teams cannot transfer ownership."
+prepareHelp = "The recipient must have completed their first server login. You can retry here, or return to Users to choose someone else."
+resume = "Resume transfer"
+searchEmail = "Search or enter an email"
+serverAccount = "Server account"
+serverDetails = "Linked server details"
+signIn = "Sign in to cloud"
+startFromInstanceBody = "This team has linked servers. On the self-hosted server, open Settings → Users and change the recipient's role to Org Owner. That flow transfers cloud ownership before completing the server transfer."
+startFromInstanceTitle = "Start from your self-hosted server"
+stayOwner = "You stay the owner until transfer."
+targetChanged = "The recipient's account changed. Restore their access or cancel this transfer and choose them again."
+title = "Transfer ownership"
+transfer = "Transfer ownership"
+waitingForEmail = "Waiting for {{email}} to join {{team}}."
+working = "Checking and updating ownership..."
+yourCloudAccess = "You'll become a team member and lose owner access."
+
 [pageEdit]
 deselectAll = "全部不選"
 selectAll = "全選"
@@ -6712,8 +6783,6 @@ upgradeCompleteMessage = "您的訂閱已成功升級。既有授權金鑰已更
 upgradeSuccess = "付款成功！您的訂閱已升級。伺服器上的授權已更新。您將很快收到確認電子郵件。"
 upgradeTitle = "升級至 {{planName}}"
 yearly = "年繳"
-
-[payment.addCapacity]
 
 [payment.adjustTeam]
 title = "調整 Team 方案"
@@ -7299,12 +7368,6 @@ upToFiveUsers = "最多 5 位使用者"
 usageTrackingPrometheus = "使用追蹤與 Prometheus"
 usersIncluded = "包含 100 位使用者"
 
-[plan.licenseWarning]
-body = "目前有 {{total}} 位使用者，但免費方案僅支援 {{limit}} 位。請升級以保持 Stirling PDF 運作順暢。"
-cta = "檢視方案"
-overLimit = "多於 {{limit}}"
-title = "自架免費上限已達"
-
 [plan.period]
 month = "月"
 
@@ -7432,6 +7495,9 @@ pdfa-1 = "PDF/A-1b"
 pdfa-2b = "PDF/A-2b"
 pdfa-3b = "PDF/A-3b"
 
+[portal.accountLink]
+ownerRequired = "Only the org owner can link or unlink this server."
+
 [portal.accountLink.card]
 billingNote = "此伺服器會共用團隊在 Stirling Cloud 的處理額度。"
 connectDescription = "連結此伺服器，以使用你團隊在 Stirling Cloud 中的處理額度。"
@@ -7553,6 +7619,7 @@ identity = "Stirling 帳戶"
 linkTitle = "連結您的 Stirling 帳戶"
 noAuthorizeUrl = "Stirling 未提供可繼續前往的網址。請稍後再試。"
 startFailed = "無法連上 Stirling 以開始連線。請檢查此伺服器的對外網路存取，然後再試一次。"
+transferPending = "An ownership transfer is pending. Go to Settings → Users to finish or cancel it, then try linking again."
 
 [portal.accountLink.modal.loginNotConfigured]
 after = "讓此伺服器在您回到此頁面時完成連線。"
@@ -7846,8 +7913,6 @@ rateUnknown = "我們會在結帳時顯示確切價格。"
 [portal.billing.prepaid.consent]
 label = "我了解當我的預付容量用完或 12 個月後到期時，除非我取消，處理會自動以標準計量隨用隨付費率繼續（最高至我的支出上限），且我可以隨時從帳單入口網站取消。"
 
-[portal.billing.prepaid.deploy]
-
 [portal.billing.prepaid.offer]
 title = "以 10 個月價格取得 12 個月"
 
@@ -7861,15 +7926,9 @@ payOnline = "線上付款"
 poNumber = "PO 編號（選填）"
 poNumberPlaceholder = "例如 PO-2026-0142"
 
-[portal.billing.prepaid.pipelines]
-
-[portal.billing.prepaid.posture]
-
 [portal.billing.prepaid.review]
 download = "下載報價（PDF）"
 downloading = "準備中…"
-
-[portal.billing.prepaid.size]
 
 [portal.billing.processor]
 activate = "啟用 Processor"
@@ -7965,8 +8024,6 @@ useSuggested = "使用建議 · {{amount}} / 月"
 body_one = "以 {{rate}}/天計算，您約 {{count}} 天後會達到上限（約 {{monthEnd}} 月底）。建議限制約 {{suggested}}。"
 body_other = "以 {{rate}}/天計算，您約 {{count}} 天後會達到上限（約 {{monthEnd}} 月底）。建議限制約 {{suggested}}。"
 label = "預計會超出。"
-
-[portal.billing.spendLimitModal]
 
 [portal.billing.subscribedPlan.capWarn]
 approachingBody = "現在提高上限，讓自動處理永不暫停。"
@@ -12247,6 +12304,7 @@ confirmCancelInvite = "確定要取消此邀請嗎？"
 confirmLeave = "確定要離開此團隊嗎？"
 confirmLeaveLeader = "身為團隊領導者，離開後您將被移出團隊。確定要繼續嗎？"
 confirmRemove = "確定要移除此成員嗎？"
+currentUnavailable = "We couldn't identify your current team. Try again, or contact support if this continues."
 editName = "編輯團隊名稱"
 inviteCancelled = "已取消邀請"
 inviteError = "邀請寄送失敗"
@@ -12272,10 +12330,8 @@ renameCancel = "取消重新命名"
 renameError = "重新命名團隊失敗"
 renameSubmit = "儲存團隊名稱"
 renameSuccess = "已成功重新命名團隊"
-transferBody = "要將 {{email}} 設為團隊擁有者嗎？對方將可管理團隊成員與組織帳務設定，您則會成為成員。團隊的訂閱與錢包仍歸團隊所有。"
 transferError = "無法移轉擁有權。請重新整理團隊後再試。"
 transferSuccess = "已移轉團隊擁有權。您的角色現為成員。"
-transferTitle = "移轉團隊擁有權"
 
 [team.invitationBanner]
 acceptButton = "接受"
@@ -12571,7 +12627,6 @@ removeTeam = "從團隊移除"
 rename = "重新命名團隊"
 resetPw = "重設密碼"
 suspend = "停權"
-transferOwnership = "移轉擁有權"
 unlock = "解鎖帳戶"
 
 [users.activity]
@@ -12611,8 +12666,6 @@ disableMfaTitle = "重設 MFA"
 removeBody = "永久從組織移除 {{name}}？此操作無法復原。"
 removeTeamBody = "要將 {{name}} 從團隊移除嗎？他們會保留帳戶，但會失去此團隊資源的存取權。"
 removeTitle = "移除成員"
-transferOwnershipBody = "要將 {{name}} 設為組織擁有者嗎？對方將成為管理員。您仍是管理員，但不再擁有組織。只有新的擁有者或伺服器管理人員才能將擁有權移轉回來。"
-transferOwnershipTitle = "移轉組織擁有權"
 
 [users.empty]
 description = "邀請您的團隊開始協作。"
