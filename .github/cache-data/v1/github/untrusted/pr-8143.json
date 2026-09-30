@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "references": {
+    "untrusted/Stirling-Tools/Stirling-PDF/pr-8143/gradle-caches/linux-x64/e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3/v1": {
+      "object": "sha256:9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a8c6c051a553a2",
+      "updated_at": "2026-09-30T07:01:06.589Z",
+      "source": "Stirling-Tools/Stirling-PDF",
+      "created_by": "Ludy87",
+      "size": 341223801,
+      "parts": [
+        {
+          "index": 0,
+          "object": "sha256:7786821ea2ddc5b004b9b6eab629cc36e621955c7f8a80571e5cf8f44547cd94",
+          "size": 25165824,
+          "artifact_id": 11081313248,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000000",
+          "workflow_run_id": 36680765170
+        },
+        {
+          "index": 1,
+          "object": "sha256:d1d6d8b75c01645077f5235bff9f47c8e116d3c71081f6efc8a7ae80593e696a",
+          "size": 25165824,
+          "artifact_id": 11081078444,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000001",
+          "workflow_run_id": 36680765170
+        },
+        {
+          "index": 2,
+          "object": "sha256:967b83498726124c19f5f462348c9c2b39ccef7a21951ed5b6482e350c5ca01b",
+          "size": 25165824,
+          "artifact_id": 11081577915,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000002",
+          "workflow_run_id": 36680765170
+        },
+        {
+          "index": 3,
+          "object": "sha256:1b2c566713e1db52a57831e33002579b532535fbdb6df0ddc3f2d7458177514f",
+          "size": 25165824,
+          "artifact_id": 11081073619,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000003",
+          "workflow_run_id": 36680765170
+        },
+        {
+          "index": 4,
+          "object": "sha256:7c13bffc90ea7c6e385c9c1c6372a06b3743e22ca197c711676a57fe8c512645",
+          "size": 25165824,
+          "artifact_id": 11081692931,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000004",
+          "workflow_run_id": 36680765170
+        },
+        {
+          "index": 5,
+          "object": "sha256:04e217aaa567b2fc72a74c1fc1591a2fd5feda61b1b719d73f40e4c868933f49",
+          "size": 25165824,
+          "artifact_id": 11081652835,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000005",
+          "workflow_run_id": 36680765170
+        },
+        {
+          "index": 6,
+          "object": "sha256:aa2b6c8f46f5faed4dbe72277a99ad7ac8517a3b9f18ca2642f6ae5e62f5d4af",
+          "size": 25165824,
+          "artifact_id": 11081862389,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000006",
+          "workflow_run_id": 36680765170
+        },
+        {
+          "index": 7,
+          "object": "sha256:5cb1e813ec7b07af8e2d6f597b57c802030625663628c3aebad8be70c9804e16",
+          "size": 25165824,
+          "artifact_id": 11081777615,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000007",
+          "workflow_run_id": 36680765170
+        },
+        {
+          "index": 8,
+          "object": "sha256:f4c9f112880aa9bb45d3c16feb75136f29c7b821bca4f11ce70b2e463a1b3120",
+          "size": 25165824,
+          "artifact_id": 11081528028,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000008",
+          "workflow_run_id": 36680765170
+        },
+        {
+          "index": 9,
+          "object": "sha256:ea453e92ec6e8822245e2e3ca6e6d77e23fbdf6f3a6bf9e405ff7be943fec02d",
+          "size": 25165824,
+          "artifact_id": 11081532878,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000009",
+          "workflow_run_id": 36680765170
+        },
+        {
+          "index": 10,
+          "object": "sha256:231b1a172a4ee2ae02f2898182ee3e10a1deef9d4c408ea555938d8a4a4c5c62",
+          "size": 25165824,
+          "artifact_id": 11081538039,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000010",
+          "workflow_run_id": 36680765170
+        },
+        {
+          "index": 11,
+          "object": "sha256:7507e685945547c8f6b7f6888dbd644012ed9b2345bfef8a888009680ae4478a",
+          "size": 25165824,
+          "artifact_id": 11081588073,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000011",
+          "workflow_run_id": 36680765170
+        },
+        {
+          "index": 12,
+          "object": "sha256:bdfc1ce9ed453fddd93725a10b833767ccd7430fce9674189cdb755d051c832c",
+          "size": 25165824,
+          "artifact_id": 11081538048,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000012",
+          "workflow_run_id": 36680765170
+        },
+        {
+          "index": 13,
+          "object": "sha256:bb66baa37acc229c345e9fe60a3ab0e7ddf61799bacabe4da61573099e560b98",
+          "size": 14068089,
+          "artifact_id": 11081672871,
+          "artifact_name": "cache-untrusted-pr-8143-gradle-caches-linux-x64-e05c91d22bc7aef286d587168903b7a95b27d68d19b89869f029a3c624ee91d3-v1--9d7957fefe2d79d381e1d619bc0223ca2d59ca7deb3da56761a-part-000013",
+          "workflow_run_id": 36680765170
+        }
+      ],
+      "artifact_id": 11081313248,
+      "workflow_run_id": 36680765170
+    }
+  },
+  "monitoring": {
+    "window_started_at": "2026-09-30T07:01:06.589Z",
+    "writes": 1
+  }
+}
